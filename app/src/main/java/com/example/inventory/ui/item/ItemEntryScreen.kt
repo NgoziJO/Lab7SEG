@@ -176,7 +176,7 @@ fun ItemInputForm(
         )
         if (enabled) {
             Text(
-                text = stringResource(R.string.required_fields),
+                text = stringResource(R.string.these_are_required_fields),
                 modifier = Modifier.padding(start = dimensionResource(id = R.dimen.padding_medium))
             )
         }
